@@ -1,4 +1,5 @@
-$(document).ready(function(){
+$(window).load(function(){
+
 
     // Show image subtitle
     $('.b-image').hover(function(){
@@ -40,7 +41,7 @@ $(document).ready(function(){
     var slider =  $('.b-slide-show__slides').bxSlider({
         pager : false,
         controls : false,
-        useCSS : false
+        startSlide:0
     });
 
     $('.b-controls__control_right').click(function(){

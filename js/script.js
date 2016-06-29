@@ -52,4 +52,7 @@ $(document).ready(function(){
         slider.goToPrevSlide();
         return false;
     });
+
+    var a = 0;
+    console.log("sefesf");
 });
